@@ -1,6 +1,6 @@
 function YiFanWang(){
 
-d3.csv("https://aa002868.github.io/NTUB10466002/YiFanWang.csv", function(data) {
+d3.csv("https://aa002868.github.io/pdata/YiFanWang.csv", function(data) {
 	console.log(data);
 	      d3.wordcloud()
         .size([800, 400])
